@@ -6,6 +6,7 @@ let idUser;
 let conn;
 
   var peer = new Peer('pc2Monkila', {
+    host: 'https://joem1990.github.io/chatVideo/',
     debug:2
   }
   );
