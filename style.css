@@ -1,0 +1,42 @@
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+  }
+  
+  p{
+    color: white;
+  }
+  
+  h1 {
+    font-style: italic;
+    color: white;
+    font-size: 80px;
+    /* margin-left: 60%; */
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  video {
+    clear: both;
+    display: block;
+    margin: 10px;
+    background: #000000;
+    width: 640px;
+    height: 480px;
+  }
+  
+  button {
+    padding: 10px;
+    float: left;
+    margin: 15px 15px 15px 15px;
+    /* margin-left: 40px; */
+  }
+  
+  .removed {
+    display: none;
+  }
+  
+  #status {
+    font-size:150%;
+  }
+  
