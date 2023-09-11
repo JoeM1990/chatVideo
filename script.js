@@ -6,8 +6,7 @@ let idUser;
 let conn;
 
   var peer = new Peer('pc2Monkila', {
-    secure:true,
-    host: '',
+    debug:2
   }
   );
 
