@@ -6,9 +6,9 @@ let idUser;
 let conn;
 
   var peer = new Peer('pc2Monkila', {
-    debug:2
-  }
-  );
+    debug:2 });
+
+  peer.destroy();
 
   peer.on('open', function () {
    console.log(peer.id)
