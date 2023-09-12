@@ -5,13 +5,16 @@ const REMOTE = document.getElementById('remote');
 let idUser;
 let conn;
 
-  var peer = new Peer('pc2Monkila', {
-    debug:2 });
 
-  peer.destroy();
+let idSet =  Math.floor(Math.random() * 500) + 'Monkila';
+
+
+  var peer = new Peer(idSet, {
+    debug:2 });
 
   peer.on('open', function () {
    console.log(peer.id)
+   alert('Votre id est : ' +peer.id);
   });
 
   peer.on('connection', function(c) {
